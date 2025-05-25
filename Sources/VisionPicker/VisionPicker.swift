@@ -57,6 +57,7 @@ public struct VisionPicker<ValueType: Hashable, LabelView: View>: View {
                             selection = item.value
                         }
                     }
+                    .contentShape(.rect)
                     .padding(5)
                     .background {
                         if selection == item.value {
