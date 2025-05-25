@@ -66,3 +66,5 @@ If you have any issues or questions feel free to open an [issue](https://github.
 
 ## Requirements
 - iOS 15+
+- macOS 12+
+- visionOS 1+
