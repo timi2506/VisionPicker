@@ -18,7 +18,7 @@ and press "Add Package" and make sure to link it to your target.
 **VisionPicker { ... }** *View*
 
 ```swift
-VisionPicker(selection: Binding<ValueType>, backgroundMaterial: Material?, items: () -> [PickerItem<ValueType, LabelView>])
+VisionPicker(selection: Binding<Hashable>, backgroundMaterial: Material?, items: () -> [PickerItem<Hashable, LabelView>])
 ```
 
 * **selection** *Required*
